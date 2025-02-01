@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       {/* Contact Bar */}
-      <div className="bg-gray-900 text-white py-2 px-4 text-sm fixed top-0 left-0 w-full z-50 sm:py-4 sm:text-xs md:py-4 md:text-sm">
+      <div className="bg-gray-900 text-white py-2 px-4 text-sm fixed top-0 left-0 w-full z-50 sm:py-8 sm:text-xs md:py-8 md:text-sm">
         <p className="whitespace-normal text-center">
           Please contact us at: <strong>+250 786 7890</strong> or email us at{" "}
           <strong>info@wevent.com</strong>.
