@@ -6,15 +6,14 @@ const Navbar = () => {
 
   return (
     <>
-     <div className="bg-gray-900 text-white py-1 px-2 sm:py-2 sm:px-4 text-[10px] sm:text-sm fixed top-0 left-0 w-full z-50">
-  <div className="container mx-auto text-center max-w-full break-words leading-tight">
-    <p className="whitespace-normal">
-      For booking and reservations, please contact us at:{" "}
-      <strong>+250 786 7890</strong> or email us at{" "}
-      <strong>info@wevent.com</strong>. It would be a great honor to work
-      with you!
-    </p>
-  </div>
+     <div className="bg-gray-900 text-white py-2 px-4 text-sm fixed top-0 left-0 w-full z-50">
+        <p className="whitespace-nowrap text-center">
+          For booking and reservations, please contact us at:{" "}
+          <strong>+250 786 7890</strong> or email us at{" "}
+          <strong>info@wevent.com</strong>. It would be a great honor to work
+          with you!
+        </p>
+      </div>
 </div>
 
 </div>
