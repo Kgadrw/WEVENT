@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       {/* Contact Bar */}
-      <div className="bg-gray-900 text-white py-2 px-4 text-sm fixed top-0 left-0 w-full z-50 sm:py-12 sm:text-xs md:py-12 md:text-sm">
+      <div className="bg-gray-900 text-white py-1 px-4 text-xs fixed top-0 left-0 w-full z-50 sm:py-2 md:py-2">
         <p className="whitespace-normal text-center">
           Please contact us at: <strong>+250 786 7890</strong> or email us at{" "}
           <strong>info@wevent.com</strong>.
@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
 
       {/* Navbar */}
-      <nav className="bg-black text-white py-4 px-6 md:px-12 shadow-md border-b border-gray-700 w-full mt-8">
+      <nav className="bg-black text-white py-4 px-6 md:px-12 shadow-md border-b border-gray-700 w-full mt-6">
         <div className="flex justify-between items-center w-full max-w-screen-xl mx-auto">
           <h1 className="text-xl font-semibold tracking-tight">WEVENT</h1>
 
